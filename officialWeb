@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="officialWeb.css" media="screen" title="no title" charset="utf-8">
+    <title>蜡笔小鸡的主页</title>
+  </head>
+  <body>
+    <div class="title">
+        <div class="head">
+            <img src="img/icon-1.png" style="height:30px;width:30px">
+            <span style="font-size: 22px">蜡笔小鸡</span>
+        </div>
+        <div class="introduce">
+            <span class="volume">首页</span>
+            <span class="volume">最新活动</span>
+            <span class="volume">项目介绍</span>
+            <span class="volume">爱心社区</span>
+            <span class="volume">关于小鸡</span>
+        </div>
+        <div class="register">
+            <img src="img/icon-2.jpg">
+            <span>登录</span>
+        </div>
+    </div>
+    <div class="main">
+        <div>
+            <h1>蜡笔小鸡</h1>
+            <p>这里是蜡笔小鸡的主页，欢迎大家都来访问</p>
+        </div>
+        <div class="start">
+            <span>开始体验</span>
+        </div>
+    </div>
+  </body>
+</html>

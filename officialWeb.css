@@ -1,0 +1,104 @@
+.title{
+    display:flex;
+    vertical-align:-webkit-baseline-middle;
+    height:50px;
+    width:100%;
+}
+.head{
+    display:inline-block;
+    position:absolute;
+    align-self:center;
+    left:50px;
+}
+.guidiance{
+    display:inline-block;
+    position:absolute;
+    align-self:center;
+    right:100px;
+    font-size:17px;
+}
+.guide{
+    padding:10px;
+}
+.register{
+    display:inline-block;
+    position:absolute;
+    align-self:center;
+    right:20px;
+}
+
+.main{
+    height:700px;
+    width:100%;
+    background-size: auto;
+    background:url(./img/pic01.jpg);
+    background-size:cover;
+}
+.maintext{
+    position:absolute;
+    top:35%;
+    left:12%;
+}
+.start{
+    position:absolute;
+    left:12%;
+    top:70%;
+    padding:12px 60px;
+    font-size:20px;
+    background-color: rgb(194, 11, 11);
+}
+.volume{
+    display:inline-block;
+    padding-top:25px;
+}
+.introduction{
+    display:inline-block;
+    width:24%;
+    height:100px;
+    margin:0;
+    text-align:center;
+    font-size:14px;
+}
+.more{
+    background-color: rgb(230, 230, 230);
+    width:100%;
+    text-align: center;
+    vertical-align:middle;
+    margin-top:50px;
+    padding-top :50px;
+    padding-bottom:30px;
+}
+.search{
+    background:url(./img/pic02.jpg);
+    background-size:cover;
+    padding:20px;
+}
+.select{
+    height:30px;
+    width:140px;
+}
+.vacation{
+    display:inline-block;
+}
+.pic{
+    padding:20px 50px;
+    text-align: center;
+    display:inline-block;
+}
+.detail{
+    border: rgb(245, 108, 108);
+    border-style: groove;
+    color:rgb(204, 30, 30);
+    width:150px;
+    margin:10px auto;
+    padding:5px 15px;
+}
+.start:hover,.search:hover{
+    background-color: darkgray;
+    cursor: pointer;
+}
+.guide:hover{
+    cursor: pointer;
+    border-bottom: crimson;
+    border-bottom:solid;
+}
